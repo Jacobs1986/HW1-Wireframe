@@ -7,7 +7,7 @@ body {
     margin: 10px auto;
 }
 
-header, Nav, Section, Aside, Footer {
+header, nav, section, aside {
     background-color: #ebebeb;
 }
 
@@ -25,16 +25,31 @@ nav {
 
 section {
     float: left;
-    width: 50%; 
+    width: 50%;
+    text-align: center;
+    _margin-right: 10px;
 }
 
 aside {
-    float: left;
-    width: 50%;
+    float: right;
+    width: 48%;
+    text-align: center;
+    height: 317px;
+}
+
+article {
+    color: #ebebeb;
+    background-color: #777;
+    width: 150px;
+    margin-left: 20px;
+}
+
+article h4 {
+    padding: 10px;
 }
 
 footer {
-
+    background-color: #ebebeb;
 }
 
 footer::after {
