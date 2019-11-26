@@ -1,0 +1,7 @@
+body {
+    background-color: #777;
+}
+
+header, Nav, Section, Aside, Footer {
+    background-color: #ebebeb;
+}
