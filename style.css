@@ -27,6 +27,7 @@ section {
     float: left;
     width: 50%;
     text-align: center;
+    height: 317px;
     _margin-right: 10px;
 }
 
@@ -41,7 +42,24 @@ aside {
 article {
     color: #ebebeb;
     background-color: #777;
-    width: 150px;
+    width: 90%;
+    margin-left: 20px;
+    height: 75%;
+}
+
+article h1 {
+    color: #777;
+    background-color: #ebebeb;
+    padding: 20px;
+    width: 80%;
+    margin-left: 20px;
+}
+
+article p {
+    color: #777;
+    background-color: #ebebeb;
+    padding: 20px;
+    width: 80%;
     margin-left: 20px;
 }
 
