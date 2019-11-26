@@ -35,6 +35,7 @@ aside {
     width: 48%;
     text-align: center;
     height: 317px;
+    margin-bottom: 20px;
 }
 
 article {
@@ -50,6 +51,9 @@ article h4 {
 
 footer {
     background-color: #ebebeb;
+    clear: both;
+    padding: 20px;
+    text-align: center;
 }
 
 footer::after {
